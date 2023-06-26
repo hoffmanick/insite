@@ -1,7 +1,7 @@
 ---
 layout: default
 title: app
-permalink: /layout
+permalink: /app
 ---
 
 <head>
