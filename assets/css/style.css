@@ -104,7 +104,8 @@ img {
 }
 
 header {
-  width:270px;
+  text-align: center;
+  /* width:270px; */
   /* float:left; */
   /* position:fixed; */
   -webkit-font-smoothing:subpixel-antialiased;
@@ -187,7 +188,8 @@ hr {
 }
 
 footer {
-  width:270px;
+  text-align: center;
+  /* width:270px; */
  /* float:left; */
  /* position:fixed; */
   bottom:50px;
