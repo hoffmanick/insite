@@ -17,7 +17,7 @@
 </style>
 
 <div>
-  <img src="{{site.baseurl}}/images/wheele.jpg" id="wheel">
+  <img src="{{site.baseurl}}/images/wheel.png" id="wheel">
 </div>
 
 
@@ -48,7 +48,7 @@
     }
 }, 3000);
    setTimeout(function() {
-   image.src = "{{site.baseurl}}/images/wheele.jpg";
+   image.src = "{{site.baseurl}}/images/wheel.png";
 }, 6000);
   });
 </script>
