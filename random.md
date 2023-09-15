@@ -47,7 +47,7 @@
 </div>
 <div id="colright">
 <div style="display:grid;justify-content:center;">
-  <img src="{{site.baseurl}}/images/wheel.png" id="wheel" style="height:560px;margin-top:20px;">
+  <img src="{{site.baseurl}}/images/wheel.png" id="wheel" style="height:460px;margin-top:20px;">
 </div>
 </div>
 </div>
