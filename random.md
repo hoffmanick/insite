@@ -2,7 +2,7 @@
 #wheel {
   animation-name: rotation;
   animation-duration: 0s;
-  animation-iteration-count: infinite;
+  animation-iteration-count: 0;
   animation-timing-function: ease-out;
 }
 
@@ -31,6 +31,7 @@
 
     image.addEventListener('click', () => {
     image.style.animationDuration = "3s";
+    image.style.animationIterationCount = "1";
     var rando;
     rando = Math.floor(Math.random()*3);
     setTimeout(function() {
