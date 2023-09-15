@@ -1,5 +1,5 @@
 <div>
-  <img src="{{site.baseurl}}/images/wheel.png" id="wheel">
+  <img src="{{site.baseurl}}/images/wheele.jpg" id="wheel">
 </div>
 
 
@@ -21,11 +21,11 @@
     }
     if (rando = 1)
     {
-      image.src = "{{site.baseurl}}/images/shirt.png";
+      image.src = "{{site.baseurl}}/images/shirt.jpg";
     }
     if (rando = 2)
     {
-      image.src = "{{site.baseurl}}/images/bottle.png";
+      image.src = "{{site.baseurl}}/images/bottle.jpg";
     }
   });
 </script>
