@@ -20,7 +20,7 @@
   <h1 style="text-align:center;">Spin the wheel!</h1>
 </div>
 
-<div>
+<div style="display:grid;justify-content:center;">
   <img src="{{site.baseurl}}/images/wheel.png" id="wheel">
 </div>
 
