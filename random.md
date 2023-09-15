@@ -30,7 +30,7 @@
     const image = document.getElementById('wheel');
 
     image.addEventListener('click', () => {
-    image.style.animationDuration = "3s";
+    image.style.animationDuration = "0.5s";
     var rando;
     rando = Math.floor(Math.random()*3);
     setTimeout(function() {
