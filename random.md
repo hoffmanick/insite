@@ -3,7 +3,7 @@
   animation-name: rotation;
   animation-duration: 0s;
   animation-iteration-count: infinite;
-  animation-timing-function: ease-in-out;
+  animation-timing-function: ease-out;
 }
 
 @keyframes rotation {
