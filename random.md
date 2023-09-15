@@ -26,7 +26,7 @@
   
 </style>
 <div style="display:grid;grid-template-columns:auto auto;">
-<div id="colleft">
+<div id="colleft" style="display:grid;align-content:center;">
 <div style="padding-top:10px;">
   <h1 style="text-align:center;">Spin the wheel!</h1>
   <p style="text-align:center;">Sign up for our mailing list to spin the wheel and see what prize you get</p>
@@ -47,7 +47,7 @@
 </div>
 <div id="colright">
 <div style="display:grid;justify-content:center;">
-  <img src="{{site.baseurl}}/images/wheel.png" id="wheel" style="height:300px;">
+  <img src="{{site.baseurl}}/images/wheel.png" id="wheel" style="height:560px;margin-top:20px;">
 </div>
 </div>
 </div>
