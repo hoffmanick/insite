@@ -31,10 +31,9 @@
 
     image.addEventListener('click', () => {
     image.style.animationDuration = "2s";
-    setTimeout(function() {
-}, 3000);
     var rando;
     rando = Math.floor(Math.random()*3);
+    setTimeout(function() {
     if (rando == 0)
     {
       image.src = "{{site.baseurl}}/images/hat.png";
@@ -47,6 +46,7 @@
       image.src = "{{site.baseurl}}/images/bottle.jpg";
       image.style.animationDuration = "0s";
     }
+}, 3000);
    setTimeout(function() {
    image.src = "{{site.baseurl}}/images/wheele.jpg";
 }, 3000);
