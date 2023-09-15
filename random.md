@@ -18,13 +18,10 @@
     if (rando = 0)
     {
       image.src = "{{site.baseurl}}/images/hat.png";
-    }
-    if (rando = 1)
+    } else if (rando = 1)
     {
       image.src = "{{site.baseurl}}/images/shirt.jpg";
-    }
-    if (rando = 2)
-    {
+    } else {
       image.src = "{{site.baseurl}}/images/bottle.jpg";
     }
   });
