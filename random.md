@@ -69,7 +69,7 @@ html, body { min-height: 100%; }
       image.src = "{{site.baseurl}}/images/shirt.png";
       image.style.animationDuration = "0s";
     } else {
-      image.src = "{{site.baseurl}}/images/bottle.jpg";
+      image.src = "{{site.baseurl}}/images/bottle.png";
       image.style.animationDuration = "0s";
     }
 }, 2000);
