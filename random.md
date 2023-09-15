@@ -17,10 +17,10 @@
 
     var rando;
     rando = Math.floor(Math.random()*3);
-    if (rando = 0)
+    if (rando == 0)
     {
       image.src = "{{site.baseurl}}/images/hat.png";
-    } else if (rando = 1)
+    } else if (rando == 1)
     {
       image.src = "{{site.baseurl}}/images/shirt.jpg";
     } else {
