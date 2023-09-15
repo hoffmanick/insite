@@ -42,7 +42,7 @@
     const image = document.getElementById('wheel');
     const form = document.getElementById('formm');
     form.addEventListener('submit', () => {
-    image.style.animationDuration = "2s";
+    image.style.animationDuration = "1s";
     var rando;
     rando = Math.floor(Math.random()*3);
     setTimeout(function() {
