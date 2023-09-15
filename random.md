@@ -56,8 +56,6 @@
     const form = document.getElementById('formm');
     form.addEventListener('submit', () => {
     image.style.animationDuration = "2s";
-    document.getElementById("em").value = "";
-    document.getElementById("nam").value = "";
     var rando;
     rando = Math.floor(Math.random()*3);
     setTimeout(function() {
@@ -76,6 +74,8 @@
 }, 2000);
    setTimeout(function() {
    image.src = "{{site.baseurl}}/images/wheel.png";
+   document.getElementById("em").value = "";
+   document.getElementById("nam").value = "";
 }, 5000);
   });
 </script>
