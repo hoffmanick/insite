@@ -1,5 +1,5 @@
 <div>
-  <img src="{{site.baseurl}}/images/wheele.jpg" id="wheel">
+  <img src="{{site.baseurl}}/images/wheele.jpg" id="wheel" onclick="regen()">
 </div>
 
 
@@ -10,6 +10,7 @@
 </script>
 
 <script>
+  function regen()  {
   const image = document.getElementById('wheel');
 
   image.addEventListener('click', () => {
@@ -28,4 +29,5 @@
       image.src = "{{site.baseurl}}/images/bottle.jpg";
     }
   });
+  }
 </script>
