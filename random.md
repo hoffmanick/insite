@@ -28,6 +28,6 @@
     }
    setTimeout(function() {
    image.src = "{{site.baseurl}}/images/wheele.jpg";
-}, 20000);
+}, 3000);
   }
 </script>
