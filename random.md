@@ -16,6 +16,14 @@
 }
 </style>
 
+<form action="/action_page.php" id="formm">
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" value="John"><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname" value="Doe"><br><br>
+  <input type="submit" value="Submit">
+</form> 
+
 <div>
   <h1 style="text-align:center;">Spin the wheel!</h1>
   <p style="text-align:center;">Click on the wheel to spin it and see what prize you get</p>
@@ -27,14 +35,9 @@
 
 
 <script>
- // const image = document.getElementById('wheel');
- // 
-</script>
-
-<script>
     const image = document.getElementById('wheel');
-
-    image.addEventListener('click', () => {
+    const form = document.getElementById('formm');
+    form.addEventListener('submit', () => {
     image.style.animationDuration = "2s";
     var rando;
     rando = Math.floor(Math.random()*3);
