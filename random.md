@@ -6,9 +6,11 @@
 
 
 <script>
-  function getRandomInt(max) {
-    return Math.floor(Math.random()*max);
-  }
+  const image = document.getElementById('wheel');
+  image.animate({
+  rotation: 90,
+  duration: 1000
+});
 </script>
 
 <script>
