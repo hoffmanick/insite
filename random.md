@@ -18,6 +18,7 @@
 
 <div>
   <h1 style="text-align:center;">Spin the wheel!</h1>
+  <p style="text-align:center;">Click on the wheel to spin it and see what prize you get</p>
 </div>
 
 <div style="display:grid;justify-content:center;">
@@ -34,7 +35,7 @@
     const image = document.getElementById('wheel');
 
     image.addEventListener('click', () => {
-    image.style.animationDuration = "3s";
+    image.style.animationDuration = "2s";
     var rando;
     rando = Math.floor(Math.random()*3);
     setTimeout(function() {
