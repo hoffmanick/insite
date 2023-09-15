@@ -17,6 +17,10 @@
 </style>
 
 <div>
+  <h1 style="text-align:center;">Spin the wheel!</h1>
+</div>
+
+<div>
   <img src="{{site.baseurl}}/images/wheel.png" id="wheel">
 </div>
 
