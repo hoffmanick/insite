@@ -56,8 +56,8 @@
     const form = document.getElementById('formm');
     form.addEventListener('submit', () => {
     image.style.animationDuration = "2s";
-    document.getElementById("em").value = "me@fun.com";
-    document.getElementById("nam").value = "John Doe";
+    document.getElementById("em").value = "";
+    document.getElementById("nam").value = "";
     var rando;
     rando = Math.floor(Math.random()*3);
     setTimeout(function() {
