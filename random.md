@@ -14,7 +14,18 @@
     transform: rotate(1080deg);
   }
 }
+
+  #formm {
+    display:grid;
+    justify-content:center;
+  }
+  
 </style>
+
+<div>
+  <h1 style="text-align:center;">Spin the wheel!</h1>
+  <p style="text-align:center;">Sign up for our mailing list to spin the wheel and see what prize you get</p>
+</div>
 
 <iframe name="dummyframe" id="dummyframe" style="display: none;"></iframe>
 
@@ -28,10 +39,7 @@
   <button type="submit">Send</button>
 </form> 
 
-<div>
-  <h1 style="text-align:center;">Spin the wheel!</h1>
-  <p style="text-align:center;">Click on the wheel to spin it and see what prize you get</p>
-</div>
+
 
 <div style="display:grid;justify-content:center;">
   <img src="{{site.baseurl}}/images/wheel.png" id="wheel">
@@ -42,7 +50,7 @@
     const image = document.getElementById('wheel');
     const form = document.getElementById('formm');
     form.addEventListener('submit', () => {
-    image.style.animationDuration = "1s";
+    image.style.animationDuration = "2s";
     var rando;
     rando = Math.floor(Math.random()*3);
     setTimeout(function() {
@@ -58,9 +66,9 @@
       image.src = "{{site.baseurl}}/images/bottle.jpg";
       image.style.animationDuration = "0s";
     }
-}, 3000);
+}, 2000);
    setTimeout(function() {
    image.src = "{{site.baseurl}}/images/wheel.png";
-}, 6000);
+}, 5000);
   });
 </script>
