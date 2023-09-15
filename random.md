@@ -12,7 +12,7 @@
 </script>
 
 <script>
-  regen() {
+  function regen() {
     const image = document.getElementById('wheel');
 
     var rando;
