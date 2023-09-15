@@ -1,3 +1,10 @@
+<style>
+#wheel {
+  animation: rotation 2s infinite linear;
+}
+  
+</style>
+
 <div>
   <img src="{{site.baseurl}}/images/wheele.jpg" id="wheel">
 </div>
@@ -10,10 +17,7 @@
 
 <script>
     const image = document.getElementById('wheel');
-    image.animate({
-    rotation: 90,
-    duration: 1000
-    });
+
     image.addEventListener('click', () => {
     var rando;
     rando = Math.floor(Math.random()*3);
