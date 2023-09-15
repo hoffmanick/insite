@@ -210,7 +210,6 @@ footer {
   }
 
   header {
-    padding-right:320px;
   }
 
   section {
@@ -251,7 +250,6 @@ footer {
 
 @media print, screen and (max-width: 480px) {
   body {
-    padding:15px;
   }
 
   header ul {
