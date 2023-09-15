@@ -30,15 +30,15 @@
 <iframe name="dummyframe" id="dummyframe" style="display: none;"></iframe>
 
 <form method="POST" action="https://script.google.com/macros/s/AKfycbw_v98QgofnXhW3VfhGUm_LuaEmzQqVbqOatK8vjfYQx-IAMaabs1G1amnLCB0oa6lycg/exec" id="formm" target="dummyframe">
-  <label for="em">Email:</label><br>
+  <label for="em">Email:</label>
   <input type="email" id="em" name="Email" placeholder="me@fun.com" required>
   <br>
-  <label for="nam">Name:</label><br>
+  <label for="nam">Name:</label>
   <input type="text" id="nam" name="Name" placeholder="John Doe" required>
-  <br><br>
+  <br>
   <button type="submit">Send</button>
 </form> 
-
+<br>
 
 
 <div style="display:grid;justify-content:center;">
