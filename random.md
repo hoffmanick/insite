@@ -66,7 +66,7 @@ html, body { min-height: 100%; }
       image.style.animationDuration = "0s";
     } else if (rando == 1)
     {
-      image.src = "{{site.baseurl}}/images/shirt.jpg";
+      image.src = "{{site.baseurl}}/images/shirt.png";
       image.style.animationDuration = "0s";
     } else {
       image.src = "{{site.baseurl}}/images/bottle.jpg";
