@@ -19,10 +19,14 @@
     display:grid;
     justify-content:center;
   }
+
+  section {
+    background-color: palegoldenrod;
+  }
   
 </style>
 
-<div style="margin-top:10px;">
+<div style="padding-top:10px;">
   <h1 style="text-align:center;">Spin the wheel!</h1>
   <p style="text-align:center;">Sign up for our mailing list to spin the wheel and see what prize you get</p>
 </div>
