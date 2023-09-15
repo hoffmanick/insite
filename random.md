@@ -14,9 +14,8 @@
 </script>
 
 <script>
-  function regen() {
     const image = document.getElementById('wheel');
-
+    image.addEventListener('click', () => {
     var rando;
     rando = Math.floor(Math.random()*3);
     if (rando == 0)
@@ -31,5 +30,5 @@
    setTimeout(function() {
    image.src = "{{site.baseurl}}/images/wheele.jpg";
 }, 3000);
-  }
+  });
 </script>
