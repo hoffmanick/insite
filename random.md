@@ -1,6 +1,9 @@
 <style>
 #wheel {
-  animation: rotation 2s infinite linear;
+  animation-name: rotation;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
 }
 
 @keyframes rotation {
