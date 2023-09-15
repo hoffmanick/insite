@@ -26,5 +26,8 @@
     } else {
       image.src = "{{site.baseurl}}/images/bottle.jpg";
     }
+   setTimeout(function() {
+   image.src = "{{site.baseurl}}/images/wheele.jpg";
+}, 20000);
   }
 </script>
