@@ -1,5 +1,7 @@
 <div>
-  <img src="{{site.baseurl}}/images/wheele.jpg" id="wheel" onclick="regen()">
+ <button onclick="regen()">
+  <img src="{{site.baseurl}}/images/wheele.jpg" id="wheel">
+ </button>
 </div>
 
 
@@ -10,9 +12,9 @@
 </script>
 
 <script>
-  const image = document.getElementById('wheel');
+  regen() {
+    const image = document.getElementById('wheel');
 
-  image.addEventListener('click', () => {
     var rando;
     rando = Math.floor(Math.random()*3);
     if (rando = 0)
@@ -24,5 +26,5 @@
     } else {
       image.src = "{{site.baseurl}}/images/bottle.jpg";
     }
-  });
+  }
 </script>
