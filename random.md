@@ -1,4 +1,5 @@
 <style>
+html, body { min-height: 100%; }
 #wheel {
   animation-name: rotation;
   animation-duration: 0s;
