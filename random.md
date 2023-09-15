@@ -6,11 +6,11 @@
 
 
 <script>
-  const image = document.getElementById('wheel');
-  image.animate({
-  rotation: 90,
-  duration: 1000
-});
+ // const image = document.getElementById('wheel');
+ // image.animate({
+ // rotation: 90,
+ // duration: 1000
+// });
 </script>
 
 <script>
