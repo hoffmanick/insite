@@ -42,7 +42,7 @@
 
 
 <div style="display:grid;justify-content:center;">
-  <img src="{{site.baseurl}}/images/wheel.png" id="wheel">
+  <img src="{{site.baseurl}}/images/wheel.png" id="wheel" style="height:300px;">
 </div>
 
 
