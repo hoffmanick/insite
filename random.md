@@ -49,6 +49,6 @@
 }, 3000);
    setTimeout(function() {
    image.src = "{{site.baseurl}}/images/wheele.jpg";
-}, 3000);
+}, 6000);
   });
 </script>
