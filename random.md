@@ -25,7 +25,8 @@
   }
   
 </style>
-
+<div style="display:grid;grid-template-rows:auto auto;">
+<div id="colleft">
 <div style="padding-top:10px;">
   <h1 style="text-align:center;">Spin the wheel!</h1>
   <p style="text-align:center;">Sign up for our mailing list to spin the wheel and see what prize you get</p>
@@ -43,13 +44,13 @@
   <button type="submit">Send</button>
 </form> 
 <br>
-
-
+</div>
+<div id="colright">
 <div style="display:grid;justify-content:center;">
   <img src="{{site.baseurl}}/images/wheel.png" id="wheel" style="height:300px;">
 </div>
-
-
+</div>
+</div>
 <script>
     const image = document.getElementById('wheel');
     const form = document.getElementById('formm');
