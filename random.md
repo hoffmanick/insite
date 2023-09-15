@@ -1,7 +1,5 @@
 <div>
- <button onclick="regen()">
   <img src="{{site.baseurl}}/images/wheele.jpg" id="wheel">
- </button>
 </div>
 
 
