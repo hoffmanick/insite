@@ -25,7 +25,7 @@
   }
   
 </style>
-<div style="display:grid;grid-template-rows:auto auto;">
+<div style="display:grid;grid-template-columns:auto auto;">
 <div id="colleft">
 <div style="padding-top:10px;">
   <h1 style="text-align:center;">Spin the wheel!</h1>
