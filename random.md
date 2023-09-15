@@ -10,12 +10,11 @@
 </script>
 
 <script>
-  function regen()  {
   const image = document.getElementById('wheel');
 
   image.addEventListener('click', () => {
     var rando;
-    rando = getRandomInt(3);
+    rando = Math.floor(Math.random()*3);
     if (rando = 0)
     {
       image.src = "{{site.baseurl}}/images/hat.png";
@@ -29,5 +28,4 @@
       image.src = "{{site.baseurl}}/images/bottle.jpg";
     }
   });
-  }
 </script>
