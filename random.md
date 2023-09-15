@@ -16,12 +16,14 @@
 }
 </style>
 
-<form action="/people.php" id="formm">
-  <label for="fname">First name:</label><br>
-  <input type="text" id="fname" name="fname" value="John"><br>
-  <label for="lname">Last name:</label><br>
-  <input type="text" id="lname" name="lname" value="Doe"><br><br>
-  <input type="submit" value="Submit">
+<form method="POST" action="https://script.google.com/macros/s/AKfycbw_v98QgofnXhW3VfhGUm_LuaEmzQqVbqOatK8vjfYQx-IAMaabs1G1amnLCB0oa6lycg/exec" id="formm">
+  <label for="em">Email:</label><br>
+  <input type="email" id="em" name="Email" placeholder="me@fun.com" required>
+  <br>
+  <label for="nam">Name:</label><br>
+  <input type="text" id="nam" name="Name" placeholder="John Doe" required>
+  <br><br>
+  <button type="submit">Send</button>
 </form> 
 
 <div>
