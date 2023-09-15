@@ -16,7 +16,9 @@
 }
 </style>
 
-<form method="POST" action="https://script.google.com/macros/s/AKfycbw_v98QgofnXhW3VfhGUm_LuaEmzQqVbqOatK8vjfYQx-IAMaabs1G1amnLCB0oa6lycg/exec" id="formm">
+<iframe name="dummyframe" id="dummyframe" style="display: none;"></iframe>
+
+<form method="POST" action="https://script.google.com/macros/s/AKfycbw_v98QgofnXhW3VfhGUm_LuaEmzQqVbqOatK8vjfYQx-IAMaabs1G1amnLCB0oa6lycg/exec" id="formm" target="dummyframe">
   <label for="em">Email:</label><br>
   <input type="email" id="em" name="Email" placeholder="me@fun.com" required>
   <br>
