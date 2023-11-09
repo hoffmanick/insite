@@ -37,7 +37,7 @@ html, body { min-height: 100%; }
   }
   
 </style>
-<div style="display:grid;grid-template-columns:auto auto;">
+<div style="display:grid;grid-template-columns:1fr 1fr;">
 <div id="colleft" style="display:grid;align-content:center;">
 <div style="padding-top:10px;">
   <h1 style="text-align:center;font-size:51px;">Spin the wheel!</h1>
