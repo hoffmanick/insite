@@ -11,6 +11,8 @@ html, body { min-height: 100%; }
     display: none;
     border: 10px solid gold;
     border-radius: 100px;
+    width: 80%;
+    margin-left: 10%;
   }
 
 @keyframes rotation {
