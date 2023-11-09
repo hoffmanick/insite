@@ -40,8 +40,8 @@ html, body { min-height: 100%; }
 <div style="display:grid;grid-template-columns:auto auto;">
 <div id="colleft" style="display:grid;align-content:center;">
 <div style="padding-top:10px;">
-  <h1 style="text-align:center;">Spin the wheel!</h1>
-  <p style="text-align:center;">Sign up for our mailing list to spin the wheel and see what prize you get</p>
+  <h1 style="text-align:center;font-size:51px;">Spin the wheel!</h1>
+  <p style="text-align:center;font-size:40px;">Sign up for our mailing list to spin the wheel and see what prize you get</p>
 </div>
 
 <iframe name="dummyframe" id="dummyframe" style="display: none;"></iframe>
