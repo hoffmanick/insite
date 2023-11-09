@@ -7,6 +7,10 @@ html, body { min-height: 100%; }
   animation-timing-function: linear;
 }
 
+  #textbox {
+    display: none;
+  }
+
 @keyframes rotation {
   from {
     transform: rotate(0deg);
@@ -57,6 +61,7 @@ html, body { min-height: 100%; }
     const image = document.getElementById('wheel');
     const form = document.getElementById('formm');
     const text = document.getElementById('text');
+    const textbox = document.getElementById('textbox');
     form.addEventListener('submit', () => {
     image.style.animationDuration = "2s";
     var rando;
@@ -67,106 +72,124 @@ html, body { min-height: 100%; }
       image.src = "{{site.baseurl}}/images/notepad2.png";
       image.style.animationDuration = "0s";
       text.innerHTML = "A notepad!";
+      textbox.style.display="block";
     } else if (rando == 1)
     {
       image.src = "{{site.baseurl}}/images/lanyard.png";
       image.style.animationDuration = "0s";
       text.innerHTML = "A lanyard!";
+      textbox.style.display="block";
     } 
     else if (rando == 2)
     {
       image.src = "{{site.baseurl}}/images/sticker2.png";
       image.style.animationDuration = "0s";
       text.innerHTML = "A sticker!";
+      textbox.style.display="block";
     } 
     else if (rando == 3)
     {
       image.src = "{{site.baseurl}}/images/notebook.png";
       image.style.animationDuration = "0s";
       text.innerHTML = "A notebook!";
+      textbox.style.display="block";
     } 
     else if (rando == 4)
     {
       image.src = "{{site.baseurl}}/images/waterbottle.png";
       image.style.animationDuration = "0s";
       text.innerHTML = "A water bottle!";
+      textbox.style.display="block";
     } 
     else if (rando == 5)
     {
       image.src = "{{site.baseurl}}/images/straw.png";
       image.style.animationDuration = "0s";
       text.innerHTML = "A straw!";
+      textbox.style.display="block";
     } 
     else if (rando == 6)
     {
       image.src = "{{site.baseurl}}/images/bar.png";
       image.style.animationDuration = "0s";
       text.innerHTML = "A Kind Bar!";
+      textbox.style.display="block";
     } 
     else if (rando == 7)
     {
       image.src = "{{site.baseurl}}/images/lanyard.png";
       image.style.animationDuration = "0s";
       text.innerHTML = "A lanyard!";
+      textbox.style.display="block";
     } 
     else if (rando == 8)
     {
       image.src = "{{site.baseurl}}/images/sticker2.png";
       image.style.animationDuration = "0s";
       text.innerHTML = "A sticker!";
+      textbox.style.display="block";
     } 
     else if (rando == 9)
     {
       image.src = "{{site.baseurl}}/images/notepad2.png";
       image.style.animationDuration = "0s";
       text.innerHTML = "A notepad!";
+      textbox.style.display="block";
     } 
     else if (rando == 10)
     {
       image.src = "{{site.baseurl}}/images/straw.png";
       image.style.animationDuration = "0s";
       text.innerHTML = "A straw!";
+      textbox.style.display="block";
     } 
     else if (rando == 11)
     {
       image.src = "{{site.baseurl}}/images/bar.png";
       image.style.animationDuration = "0s";
       text.innerHTML = "A Kind bar!";
+      textbox.style.display="block";
     } 
     else if (rando == 12)
     {
       image.src = "{{site.baseurl}}/images/notebook.png";
       image.style.animationDuration = "0s";
       text.innerHTML = "A notebook!";
+      textbox.style.display="block";
     } 
     else if (rando == 13)
     {
       image.src = "{{site.baseurl}}/images/straw.png";
       image.style.animationDuration = "0s";
       text.innerHTML = "A straw!";
+      textbox.style.display="block";
     } 
     else if (rando == 14)
     {
       image.src = "{{site.baseurl}}/images/sticker2.png";
       image.style.animationDuration = "0s";
       text.innerHTML = "A sticker!";
+      textbox.style.display="block";
     } 
     else if (rando == 15)
     {
       image.src = "{{site.baseurl}}/images/notepad2.png";
       image.style.animationDuration = "0s";
       text.innerHTML = "A notepad!";
+      textbox.style.display="block";
     } 
     else if (rando == 16)
     {
       image.src = "{{site.baseurl}}/images/lanyard.png";
       image.style.animationDuration = "0s";
       text.innerHTML = "A lanyard!";
+      textbox.style.display="block";
     } 
     else {
       image.src = "{{site.baseurl}}/images/notebook.png";
       image.style.animationDuration = "0s";
       text.innerHTML = "A notebook!";
+      textbox.style.display="block";
     }
 }, 2000);
    setTimeout(function() {
