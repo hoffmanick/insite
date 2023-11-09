@@ -58,18 +58,94 @@ html, body { min-height: 100%; }
     form.addEventListener('submit', () => {
     image.style.animationDuration = "2s";
     var rando;
-    rando = Math.floor(Math.random()*3);
+    rando = Math.floor(Math.random()*17);
     setTimeout(function() {
     if (rando == 0)
     {
-      image.src = "{{site.baseurl}}/images/hat.png";
+      image.src = "{{site.baseurl}}/images/notepad.png";
       image.style.animationDuration = "0s";
     } else if (rando == 1)
     {
-      image.src = "{{site.baseurl}}/images/shirt.png";
+      image.src = "{{site.baseurl}}/images/lanyard.png";
       image.style.animationDuration = "0s";
-    } else {
-      image.src = "{{site.baseurl}}/images/bottle.png";
+    } 
+    else if (rando == 2)
+    {
+      image.src = "{{site.baseurl}}/images/sticker.png";
+      image.style.animationDuration = "0s";
+    } 
+    else if (rando == 3)
+    {
+      image.src = "{{site.baseurl}}/images/notebook.png";
+      image.style.animationDuration = "0s";
+    } 
+    else if (rando == 4)
+    {
+      image.src = "{{site.baseurl}}/images/waterbottle.png";
+      image.style.animationDuration = "0s";
+    } 
+    else if (rando == 5)
+    {
+      image.src = "{{site.baseurl}}/images/straw.png";
+      image.style.animationDuration = "0s";
+    } 
+    else if (rando == 6)
+    {
+      image.src = "{{site.baseurl}}/images/bar.png";
+      image.style.animationDuration = "0s";
+    } 
+    else if (rando == 7)
+    {
+      image.src = "{{site.baseurl}}/images/lanyard.png";
+      image.style.animationDuration = "0s";
+    } 
+    else if (rando == 8)
+    {
+      image.src = "{{site.baseurl}}/images/sticker.png";
+      image.style.animationDuration = "0s";
+    } 
+    else if (rando == 9)
+    {
+      image.src = "{{site.baseurl}}/images/notepad.png";
+      image.style.animationDuration = "0s";
+    } 
+    else if (rando == 10)
+    {
+      image.src = "{{site.baseurl}}/images/straw.png";
+      image.style.animationDuration = "0s";
+    } 
+    else if (rando == 11)
+    {
+      image.src = "{{site.baseurl}}/images/bar.png";
+      image.style.animationDuration = "0s";
+    } 
+    else if (rando == 12)
+    {
+      image.src = "{{site.baseurl}}/images/notebook.png";
+      image.style.animationDuration = "0s";
+    } 
+    else if (rando == 13)
+    {
+      image.src = "{{site.baseurl}}/images/straw.png";
+      image.style.animationDuration = "0s";
+    } 
+    else if (rando == 14)
+    {
+      image.src = "{{site.baseurl}}/images/sticker.png";
+      image.style.animationDuration = "0s";
+    } 
+    else if (rando == 15)
+    {
+      image.src = "{{site.baseurl}}/images/notepad.png";
+      image.style.animationDuration = "0s";
+    } 
+    else if (rando == 16)
+    {
+      image.src = "{{site.baseurl}}/images/lanyard.png";
+      image.style.animationDuration = "0s";
+    } 
+    else {
+      image.src = "{{site.baseurl}}/images/notebook.png";
       image.style.animationDuration = "0s";
     }
 }, 2000);
