@@ -71,7 +71,7 @@ html, body { min-height: 100%; }
     } 
     else if (rando == 2)
     {
-      image.src = "{{site.baseurl}}/images/sticker.png";
+      image.src = "{{site.baseurl}}/images/sticker2.png";
       image.style.animationDuration = "0s";
     } 
     else if (rando == 3)
@@ -101,7 +101,7 @@ html, body { min-height: 100%; }
     } 
     else if (rando == 8)
     {
-      image.src = "{{site.baseurl}}/images/sticker.png";
+      image.src = "{{site.baseurl}}/images/sticker2.png";
       image.style.animationDuration = "0s";
     } 
     else if (rando == 9)
@@ -131,7 +131,7 @@ html, body { min-height: 100%; }
     } 
     else if (rando == 14)
     {
-      image.src = "{{site.baseurl}}/images/sticker.png";
+      image.src = "{{site.baseurl}}/images/sticker2.png";
       image.style.animationDuration = "0s";
     } 
     else if (rando == 15)
