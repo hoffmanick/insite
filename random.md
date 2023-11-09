@@ -9,6 +9,8 @@ html, body { min-height: 100%; }
 
   #textbox {
     display: none;
+    border: 10px solid gold;
+    border-radius: 100px;
   }
 
 @keyframes rotation {
@@ -23,6 +25,11 @@ html, body { min-height: 100%; }
   #formm {
     display:grid;
     justify-content:center;
+  }
+
+  #text {
+    text-align:center;
+    font-size:35px;
   }
 
   section {
@@ -53,7 +60,7 @@ html, body { min-height: 100%; }
 <div id="colright">
 <div style="display:grid;justify-content:center;">
   <img src="{{site.baseurl}}/images/wheel.png" id="wheel" style="height:460px;margin-top:20px;">
-  <div id="textbox"><p id="text">blank</p></p></div>
+  <div id="textbox"><p id="text"> blank </p> </div>
 </div>
 </div>
 </div>
