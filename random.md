@@ -49,12 +49,14 @@ html, body { min-height: 100%; }
 <div id="colright">
 <div style="display:grid;justify-content:center;">
   <img src="{{site.baseurl}}/images/wheel.png" id="wheel" style="height:460px;margin-top:20px;">
+  <div id="textbox"><p id="text">blank</p></p></div>
 </div>
 </div>
 </div>
 <script>
     const image = document.getElementById('wheel');
     const form = document.getElementById('formm');
+    const text = document.getElementById('text');
     form.addEventListener('submit', () => {
     image.style.animationDuration = "2s";
     var rando;
@@ -64,95 +66,115 @@ html, body { min-height: 100%; }
     {
       image.src = "{{site.baseurl}}/images/notepad2.png";
       image.style.animationDuration = "0s";
+      text.innerHTML = "A notepad!";
     } else if (rando == 1)
     {
       image.src = "{{site.baseurl}}/images/lanyard.png";
       image.style.animationDuration = "0s";
+      text.innerHTML = "A lanyard!";
     } 
     else if (rando == 2)
     {
       image.src = "{{site.baseurl}}/images/sticker2.png";
       image.style.animationDuration = "0s";
+      text.innerHTML = "A sticker!";
     } 
     else if (rando == 3)
     {
       image.src = "{{site.baseurl}}/images/notebook.png";
       image.style.animationDuration = "0s";
+      text.innerHTML = "A notebook!";
     } 
     else if (rando == 4)
     {
       image.src = "{{site.baseurl}}/images/waterbottle.png";
       image.style.animationDuration = "0s";
+      text.innerHTML = "A water bottle!";
     } 
     else if (rando == 5)
     {
       image.src = "{{site.baseurl}}/images/straw.png";
       image.style.animationDuration = "0s";
+      text.innerHTML = "A straw!";
     } 
     else if (rando == 6)
     {
       image.src = "{{site.baseurl}}/images/bar.png";
       image.style.animationDuration = "0s";
+      text.innerHTML = "A Kind Bar!";
     } 
     else if (rando == 7)
     {
       image.src = "{{site.baseurl}}/images/lanyard.png";
       image.style.animationDuration = "0s";
+      text.innerHTML = "A lanyard!";
     } 
     else if (rando == 8)
     {
       image.src = "{{site.baseurl}}/images/sticker2.png";
       image.style.animationDuration = "0s";
+      text.innerHTML = "A sticker!";
     } 
     else if (rando == 9)
     {
       image.src = "{{site.baseurl}}/images/notepad2.png";
       image.style.animationDuration = "0s";
+      text.innerHTML = "A notepad!";
     } 
     else if (rando == 10)
     {
       image.src = "{{site.baseurl}}/images/straw.png";
       image.style.animationDuration = "0s";
+      text.innerHTML = "A straw!";
     } 
     else if (rando == 11)
     {
       image.src = "{{site.baseurl}}/images/bar.png";
       image.style.animationDuration = "0s";
+      text.innerHTML = "A Kind bar!";
     } 
     else if (rando == 12)
     {
       image.src = "{{site.baseurl}}/images/notebook.png";
       image.style.animationDuration = "0s";
+      text.innerHTML = "A notebook!";
     } 
     else if (rando == 13)
     {
       image.src = "{{site.baseurl}}/images/straw.png";
       image.style.animationDuration = "0s";
+      text.innerHTML = "A straw!";
     } 
     else if (rando == 14)
     {
       image.src = "{{site.baseurl}}/images/sticker2.png";
       image.style.animationDuration = "0s";
+      text.innerHTML = "A sticker!";
     } 
     else if (rando == 15)
     {
       image.src = "{{site.baseurl}}/images/notepad2.png";
       image.style.animationDuration = "0s";
+      text.innerHTML = "A notepad!";
     } 
     else if (rando == 16)
     {
       image.src = "{{site.baseurl}}/images/lanyard.png";
       image.style.animationDuration = "0s";
+      text.innerHTML = "A lanyard!";
     } 
     else {
       image.src = "{{site.baseurl}}/images/notebook.png";
       image.style.animationDuration = "0s";
+      text.innerHTML = "A notebook!";
     }
 }, 2000);
    setTimeout(function() {
    image.src = "{{site.baseurl}}/images/wheel.png";
    document.getElementById("em").value = "";
    document.getElementById("nam").value = "";
+   document.getElementById("textbox").style.display = "none";
+     
 }, 5000);
   });
 </script>
