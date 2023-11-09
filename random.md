@@ -62,7 +62,7 @@ html, body { min-height: 100%; }
     setTimeout(function() {
     if (rando == 0)
     {
-      image.src = "{{site.baseurl}}/images/notepad.png";
+      image.src = "{{site.baseurl}}/images/notepad2.png";
       image.style.animationDuration = "0s";
     } else if (rando == 1)
     {
@@ -106,7 +106,7 @@ html, body { min-height: 100%; }
     } 
     else if (rando == 9)
     {
-      image.src = "{{site.baseurl}}/images/notepad.png";
+      image.src = "{{site.baseurl}}/images/notepad2.png";
       image.style.animationDuration = "0s";
     } 
     else if (rando == 10)
@@ -136,7 +136,7 @@ html, body { min-height: 100%; }
     } 
     else if (rando == 15)
     {
-      image.src = "{{site.baseurl}}/images/notepad.png";
+      image.src = "{{site.baseurl}}/images/notepad2.png";
       image.style.animationDuration = "0s";
     } 
     else if (rando == 16)
