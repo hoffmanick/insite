@@ -53,7 +53,7 @@ html, body { min-height: 100%; }
   <input style="font-size:35px;" type="email" id="em" name="Email" placeholder="me@fun.com" required>
   <br>
   <label style="font-size:35px;" for="nam">Name:</label>
-  <input style="font-size:35px;"type="text" id="nam" name="Name" placeholder="John Doe" required>
+  <input style="font-size:35px;" type="text" id="nam" name="Name" placeholder="John Doe" required>
   <br>
   <button style="font-size:35px;" type="submit">Send</button>
 </form> 
