@@ -48,7 +48,7 @@ html, body { min-height: 100%; }
 
 <iframe name="dummyframe" id="dummyframe" style="display: none;"></iframe>
 
-<form method="POST" action="https://script.google.com/macros/s/AKfycbw_v98QgofnXhW3VfhGUm_LuaEmzQqVbqOatK8vjfYQx-IAMaabs1G1amnLCB0oa6lycg/exec" id="formm" target="dummyframe" autocomplete="off">
+<form method="POST" action="https://script.google.com/macros/s/AKfycby8o3VniOhMgeBGfgZhofcOyJ2TSit3OiyjP4e6GrJ6Ihd_fhunsoTx8_nz4bz8U2c1xw/exec" id="formm" target="dummyframe" autocomplete="off">
   <label for="em" style="font-size:35px;">Email:</label>
   <input style="font-size:35px;" type="email" id="em" name="Email" placeholder="me@fun.com" required>
   <br>
