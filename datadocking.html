@@ -52,8 +52,22 @@ html, body { min-height: 100%; }
   <label for="name" style="font-size:35px;">Name:</label>
   <input style="font-size:35px;" type="text" id="name" name="Name" placeholder="Jane Doe" required>
   <br>
-  <label style="font-size:35px;" for="group">Lab Group:</label>
-  <input style="font-size:35px;" type="text" id="group" name="LabGroup" placeholder="MyAdvisor" required>
+  <label style="font-size:35px;" for="LabGroup">Lab Group:</label>
+  <input style="font-size:35px;" list="LabGroup" name="LabGroup" placeholder="MyAdvisor" required>
+    <datalist id="LabGroup"> 
+      <option value="Amemiya">
+      <option value="Bennett">
+      <option value="Garcia-Ojeda">
+      <option value="Grasis">
+      <option value="Heath-Heckman">
+      <option value="Khatri">
+      <option value="Liu">
+      <option value="Nishiguchi">
+      <option value="Rutter">
+      <option value="Sogin">
+      <option value=Sindi">
+      <option value="Thompson">
+      </datalist>
   <br>
   <label style="font-size:35px;" for="dataset">Dataset:</label>
   <input style="font-size:35px;" type="text" id="dataset" name="Dataset" placeholder="WhatData" required>
