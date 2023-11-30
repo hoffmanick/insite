@@ -42,7 +42,7 @@ html, body { min-height: 100%; }
 <div style="display:grid;grid-template-columns:1fr 1fr;">
 <div id="colleft" style="display:grid;align-content:center;">
 <div style="padding-top:10px;">
-  <h1 style="text-align:center;font-size:51px;">Spin the wheel!</h1>
+  <h1 style="text-align:center;font-size:51px;">Document Your Data Use</h1>
   <p style="text-align:center;font-size:40px;">Sign up for our mailing list to spin the wheel and see what prize you get</p>
 </div>
 
@@ -53,8 +53,7 @@ html, body { min-height: 100%; }
   <input style="font-size:35px;" type="text" id="name" name="Name" placeholder="Jane Doe" required>
   <br>
   <label style="font-size:35px;" for="LabGroup">Lab Group:</label>
-  <input style="font-size:35px;" list="LabGroup" name="LabGroup" placeholder="MyAdvisor" required>
-    <datalist id="LabGroup"> 
+    <select style="font-size:35px;" name="LabGroup" id="LabGroup" required> 
       <option value="Amemiya">
       <option value="Bennett">
       <option value="Garcia-Ojeda">
@@ -67,7 +66,7 @@ html, body { min-height: 100%; }
       <option value="Sogin">
       <option value=Sindi">
       <option value="Thompson">
-      </datalist>
+      </select>
   <br>
   <label style="font-size:35px;" for="dataset">Dataset:</label>
   <input style="font-size:35px;" type="text" id="dataset" name="Dataset" placeholder="WhatData" required>
