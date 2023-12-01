@@ -1,0 +1,55 @@
+<style>
+html, body { min-height: 100%; }
+
+  #textbox {
+    display: none;
+    border: 10px solid gold;
+    border-radius: 100px;
+    width: 80%;
+    margin-left: 10%;
+  }
+
+
+
+  section {
+    background-color: palegoldenrod;
+  }
+  
+</style>
+<div style="display:grid;grid-template-columns:1fr 1fr;">
+<div id="colleft" style="display:grid;align-content:center;">
+<div style="padding-top:10px;">
+  <h1 style="text-align:center;font-size:51px;">Document Your Data Uploads</h1>
+  <p style="text-align:center;font-size:40px;">Fill out the information below to help INSITE keep track of data use patterns </p>
+</div>
+
+<iframe name="dummyframe" id="dummyframe" style="display: none;"></iframe>
+
+<form method="POST" action="https://script.google.com/macros/s/AKfycbxo3NCGsGCq4yJdAW7OEL98fyDBGE9a2arAOsqYnELTFzvsd4l8sG1U6akUxdabsaOprw/exec" id="formm" target="dummyframe" autocomplete="off">
+  <label for="name" style="font-size:35px;">Name:</label>
+  <input style="font-size:35px;" type="text" id="name" name="Name" placeholder="Jane Doe" required>
+  <br>
+  <label style="font-size:35px;" for="LabGroup">Lab Group:</label>
+    <select style="font-size:35px;" name="LabGroup" id="LabGroup" required> 
+      <option value="Amemiya">Amemiya</option>
+      <option value="Bennett">Bennett</option>
+      <option value="Garcia-Ojeda">Garcia-Ojeda</option>
+      <option value="Grasis">Grasis</option>
+      <option value="Heath-Heckman">Heath-Heckman</option>
+      <option value="Khatri">Khatri</option>
+      <option value="Liu">Liu</option>
+      <option value="Nishiguchi">Nishiguchi</option>
+      <option value="Rutter">Rutter</option>
+      <option value="Sogin">Sogin</option>
+      <option value=Sindi">Sindi</option>
+      <option value="Thompson">Thompson</option>
+      </select>
+  <br>
+  <label style="font-size:35px;" for="dataset">Dataset:</label>
+  <input style="font-size:35px;" type="text" id="dataset" name="Dataset" placeholder="WhatData" required>
+  <br>
+  <button style="font-size:35px;" type="submit">Send</button>
+</form> 
+<br>
+
+</div>
