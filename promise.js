@@ -582,3 +582,6 @@ exports.setMaxParserCache = function(max) {
 exports.clearParserCache = function() {
   parserCache.clearCache();
 };
+
+
+export default promise.js
