@@ -1,0 +1,17 @@
+
+
+<script> 
+  var mysql = require('mysql');
+
+var con = mysql.createConnection({
+  dbname: "insite_specs_test",
+  host: "testid.c9s268qmu83p.us-west-1.rds.amazonaws.com",
+  user: "admin",
+  password: "data_for_7?"
+});
+
+con.connect(function(err) {
+  if (err) throw err;
+  console.log("Connected!");
+});
+</script>
